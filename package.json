@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "preview": "redocly preview-docs openapi.yaml",
+    "build": "redocly bundle --output docs/openapi.json && redocly build-docs open-api.yaml --output docs/index.html"
+  },
+  "dependencies": {
+    "@redocly/cli": "^1.0.0-beta.125"
+  }
+}
